@@ -14,8 +14,19 @@ We invite you to shed some light on the CFGS case, with CRISP-DM as a guideline.
 
 ### Business understanding
 
-- Why is it important for CFGS to make their forecast less subjective?
-- How can the business context of the case be used in the analysis of the data?
+Any good project starts with a deep understanding of the customer’s needs.
+
+The Business Understanding phase focuses on understanding the objectives and requirements of the project:
+
+**Determine business objectives**: From a business perspective, what does CFGS really want to accomplish and then define business success criteria. For example, why is it important for CFGS to make their forecast less subjective?
+
+**Assess situation**: Determine resources availability, project requirements, assess risks and contingencies, and conduct a cost-benefit analysis. How can the business context of the case be used in the analysis of the data?
+
+**Determine data mining goals**: In addition to defining the business objectives, you should also define what success looks like from a technical data mining perspective. What insights can be gained from the sales data?
+
+**Produce project plan**: Select technologies and tools and define detailed plans for each project phase.
+
+While many teams hurry through this phase, establishing a strong business understanding is like building the foundation of a house – absolutely essential.
 
 ### Data understanding
 
