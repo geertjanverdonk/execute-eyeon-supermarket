@@ -14,15 +14,13 @@ We invite you to shed some light on the CFGS case, with CRISP-DM as a guideline.
 
 ### Business understanding
 
-Any good project starts with a deep understanding of the customer’s needs.
-
-The Business Understanding phase focuses on understanding the objectives and requirements of the project:
+Any good project starts with a deep understanding of the customer’s needs. The Business Understanding phase focuses on understanding the objectives and requirements of the project:
 
 **Determine business objectives**: From a business perspective, what does CFGS really want to accomplish and then define business success criteria. For example, why is it important for CFGS to make their forecast less subjective?
 
 **Assess situation**: Determine resources availability, project requirements, assess risks and contingencies, and conduct a cost-benefit analysis. How can the business context of the case be used in the analysis of the data?
 
-**Determine data mining goals**: In addition to defining the business objectives, you should also define what success looks like from a technical data mining perspective. What insights can be gained from the sales data?
+**Determine data mining goals**: In addition to defining the business objectives, you should also define what success looks like from a technical data mining perspective. What insights can be gained from the sales data? What can we learn from item returns; can these be predicted?
 
 **Produce project plan**: Select technologies and tools and define detailed plans for each project phase.
 
