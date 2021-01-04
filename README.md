@@ -30,16 +30,43 @@ While many teams hurry through this phase, establishing a strong business unders
 
 The data is provided in the `data` folder. Consider how this data can help you in solving this challenge:
 
-- How complete is the data?
-- What kind of business dynamics do you recognize in the data?
-- Which patterns do you see in the historical sales (trend, seasonality, events, week patterns, etc.)?
-- What are your hypothesis on the underlying causes for the patterns that you find?
+**Collect initial data**: Acquire the necessary data and (if necessary) load it into your analysis tool. How complete is the data?
+
+**Describe data**: Examine the data and document its surface properties like data format, number of records, or field identities.
+
+**Verify data quality**: How clean/dirty is the data? Document any quality issues.
+
+**Explore data**: Dig deeper into the data. Query it, visualize it, and identify relationships among the data. What kind of business dynamics do you recognize in the data? Which patterns do you see in the historical sales (trend, seasonality, events, week patterns, etc.)? What are your hypothesis on the underlying causes for the patterns that you find?
 
 Based on your initial insights, what would be your advise to the sales manager on the period September to December. Use the data to answer support your advice and present your insights in a compelling story during the interview. We are keen to see not only your results, but also what approach you’ve taken. Use your creativity to find insights that will raise CFGS’s interest and show’s them the value of their data.
 
-### Data preparation and modeling
+## Data preparation 
 
-TODO: add specific modeling tasks
+This phase, which is often referred to as “data munging”, prepares the final data set(s) for modeling. It has five tasks:
+
+**Select data**: Determine which data sets will be used and document reasons for inclusion/exclusion.
+
+**Clean data**: Often this is the lengthiest task. Without it, you’ll likely fall victim to garbage-in, garbage-out. A common practice during this task is to correct, impute, or remove erroneous values.
+
+**Construct data**: Derive new attributes that will be helpful. For example, convert the day, month, and year features to a single date feature.
+
+**Integrate data**: Create new data sets by combining data from multiple sources.
+
+**Format data**: Re-format data as necessary. For example, you might convert string values that store numbers to numeric values so that you can perform mathematical operations. Additionally, downcasting data can reduce the number of megabytes used by the data.
+
+## Modeling
+
+Here you’ll likely build and assess various models based on several different modeling techniques. This phase has four tasks:
+
+**Select modeling techniques**: Determine which algorithms to try (e.g. regression, neural net).
+
+**Generate test design**: Pending your modeling approach, you might need to split the data into training, test, and validation sets.
+
+**Build model**: As glamorous as this might sound, this might just be executing a few lines of code like “reg = LinearRegression().fit(X, y)”.
+
+**Assess model**: Generally, multiple models are competing against each other, and the data scientist needs to interpret the model results based on domain knowledge, the pre-defined success criteria, and the test design.
+
+Although the CRISP-DM guide suggests to “iterate model building and assessment until you strongly believe that you have found the best model(s)”, in practice you should continue iterating until you find a “good enough” model, proceed through the CRISP-DM lifecycle, then further improve the model in future iterations. 
 
 ## Using the data
 
