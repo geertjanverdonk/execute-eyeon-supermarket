@@ -68,6 +68,25 @@ Here you’ll likely build and assess various models based on several different 
 
 Although the CRISP-DM guide suggests to “iterate model building and assessment until you strongly believe that you have found the best model(s)”, in practice you should continue iterating until you find a “good enough” model, proceed through the CRISP-DM lifecycle, then further improve the model in future iterations. 
 
+## Evaluation
+
+Whereas the Assess Model task of the Modeling phase focuses on technical model assessment, the Evaluation phase looks more broadly at which model best meets the business and what to do next. This phase has three tasks:
+
+**Evaluate results**: Do the models meet the business success criteria? Which one(s) should we approve for the business?
+**Review process**: Review the work accomplished. Was anything overlooked? Were all steps properly executed? Summarize findings and correct anything if needed.
+**Determine next steps**: Based on the previous three tasks, determine whether to proceed to deployment, iterate further, or initiate new projects.
+
+## Deployment
+
+“Depending on the requirements, the deployment phase can be as simple as generating a report or as complex as implementing a repeatable data mining process across the enterprise.” – [CRISP-DM Guide] (https://www.the-modeling-agency.com/crisp-dm.pdf)
+
+A model is not particularly useful unless the customer can access its results. The complexity of this phase varies widely. This final phase has four tasks:
+
+**Plan deployment**: Develop and document a plan for deploying the model.
+**Plan monitoring and maintenance**: Develop a thorough monitoring and maintenance plan to avoid issues during the operational phase (or post-project phase) of a model.
+**Produce final report**: The project team documents a summary of the project which might include a final presentation of data mining results.
+**Review project**: Conduct a project retrospective about what went well, what could have been better, and how to improve in the future.
+
 ## Using the data
 
 Start with downloading or cloning this repository to your local machine. The data is provided in [Apache parquet](https://parquet.apache.org/) format, which requires [pyarrow](https://arrow.apache.org/docs/python/) (recommended) or [fastparquet](https://github.com/dask/fastparquet) (alternative):
