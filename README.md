@@ -40,7 +40,7 @@ The data is provided in the `data` folder. Consider how this data can help you i
 
 Based on your initial insights, what would be your advise to the sales manager on the period September to December. Use the data to answer support your advice and present your insights in a compelling story during the interview. We are keen to see not only your results, but also what approach you’ve taken. Use your creativity to find insights that will raise CFGS’s interest and show’s them the value of their data.
 
-## Data preparation 
+### Data preparation 
 
 This phase, which is often referred to as “data munging”, prepares the final data set(s) for modeling. It has five tasks:
 
@@ -54,7 +54,7 @@ This phase, which is often referred to as “data munging”, prepares the final
 
 **Format data**: Re-format data as necessary. For example, you might convert string values that store numbers to numeric values so that you can perform mathematical operations. Additionally, downcasting data can reduce the number of megabytes used by the data.
 
-## Modeling
+### Modeling
 
 Here you’ll likely build and assess various models based on several different modeling techniques. This phase has four tasks:
 
@@ -68,7 +68,7 @@ Here you’ll likely build and assess various models based on several different 
 
 Although the CRISP-DM guide suggests to “iterate model building and assessment until you strongly believe that you have found the best model(s)”, in practice you should continue iterating until you find a “good enough” model, proceed through the CRISP-DM lifecycle, then further improve the model in future iterations. 
 
-## Evaluation
+### Evaluation
 
 Whereas the Assess Model task of the Modeling phase focuses on technical model assessment, the Evaluation phase looks more broadly at which model best meets the business and what to do next. This phase has three tasks:
 
@@ -78,7 +78,7 @@ Whereas the Assess Model task of the Modeling phase focuses on technical model a
 
 **Determine next steps**: Based on the previous three tasks, determine whether to proceed to deployment, iterate further, or initiate new projects.
 
-## Deployment
+### Deployment
 
 “Depending on the requirements, the deployment phase can be as simple as generating a report or as complex as implementing a repeatable data mining process across the enterprise.” – [CRISP-DM Guide] (https://www.the-modeling-agency.com/crisp-dm.pdf)
 
