@@ -1,4 +1,4 @@
-# EyeOn Supermarket data science case study
+# EyeOn - Supermarket - Data Science case study
 
 ## Introduction
 
