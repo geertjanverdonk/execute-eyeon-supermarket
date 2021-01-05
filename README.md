@@ -38,7 +38,7 @@ The data is provided in the `data` folder. Consider how this data can help you i
 
 **Explore data**: Dig deeper into the data. Query it, visualize it, and identify relationships among the data. What kind of business dynamics do you recognize in the data? Which patterns do you see in the historical sales (trend, seasonality, events, week patterns, etc.)? What are your hypothesis on the underlying causes for the patterns that you find?
 
-Based on your initial insights, what would be your advise to the sales manager on the period September to December. Use the data to support your advice and present your insights in a compelling story during the interview. We are keen to see not only your results, but also what approach you’ve taken. Use your creativity to find insights that will raise CFGS’s interest and show’s them the value of their data.
+Based on your initial insights, what would be your advise to the sales manager on the period September to December. Use the data to support your advice and present your insights in a compelling story during the interview. We are keen to see not only your results, but also what approach you’ve taken. Use your creativity to find insights that will raise CFGS’s interest and shows them the value of their data.
 
 ### Data preparation 
 
