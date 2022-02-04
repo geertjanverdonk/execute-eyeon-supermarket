@@ -80,7 +80,7 @@ Whereas the Assess Model task of the Modeling phase focuses on technical model a
 
 ### Deployment
 
-“Depending on the requirements, the deployment phase can be as simple as generating a report or as complex as implementing a repeatable data mining process across the enterprise.” – [CRISP-DM Guide] (https://www.the-modeling-agency.com/crisp-dm.pdf)
+“Depending on the requirements, the deployment phase can be as simple as generating a report or as complex as implementing a repeatable data mining process across the enterprise.” – [CRISP-DM Guide](https://www.the-modeling-agency.com/crisp-dm.pdf)
 
 A model is not particularly useful unless the customer can access its results. The complexity of this phase varies widely. This final phase has four tasks:
 
